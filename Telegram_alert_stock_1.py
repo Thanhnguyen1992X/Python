@@ -6,8 +6,8 @@ import openpyxl
 
 def send_to_telegram(message):
 
-    apiToken = '6032498417:AAGWHLZ35x6w1zZSkGMCyGyZuC14pjiXTkw'
-    chatID = '5591599164'
+    apiToken = ''
+    chatID = ''
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
 
     try:
